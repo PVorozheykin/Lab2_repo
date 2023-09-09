@@ -15,7 +15,11 @@ internal class Program
         Log.Debug("Application start!");
 
         // Работа
-        // 
+        Operation.GetSum("1", "2");
+        Operation.GetSum("-1", "2");
+        Operation.GetSum("12", "-2");
+        Operation.GetSum("1.9", "2");
+        Operation.GetSum("1.9", "2а");
 
         Log.Debug("Application stop!");
         Log.CloseAndFlush();
