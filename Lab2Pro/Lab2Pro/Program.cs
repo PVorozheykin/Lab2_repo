@@ -12,12 +12,12 @@ internal class Program
             .WriteTo.File("log/file.log")
             .CreateLogger();
 
-        Log.Information("Application start!");
+        Log.Debug("Application start!");
 
         // Работа
         // 
 
-        Log.Information("Application stop!");
+        Log.Debug("Application stop!");
         Log.CloseAndFlush();
     }
 }
